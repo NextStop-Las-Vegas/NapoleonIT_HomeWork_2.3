@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWork2_3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyj-im-2uZ">
+                                <rect key="frame" x="107" y="144" width="200" height="30"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EDR-I5-day"/>
+                                    <constraint firstAttribute="width" constant="200" id="zdU-Vs-Mog"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="25"/>
+                                <state key="normal" title="View 1">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gWE-wo-jWy" kind="show" id="5kX-z2-QH1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGe-lp-sZ9">
+                                <rect key="frame" x="107" y="429.5" width="200" height="37"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="SbP-re-9rm"/>
+                                    <constraint firstAttribute="height" constant="37" id="kcz-Wu-s1a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="25"/>
+                                <state key="normal" title="View 2">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="a9l-f9-0kc" kind="show" id="4zm-IA-wvd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gwf-FM-tBY">
+                                <rect key="frame" x="107" y="725" width="200" height="37"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="HbI-6q-coo"/>
+                                    <constraint firstAttribute="height" constant="37" id="aEj-Tv-ICG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="25"/>
+                                <state key="normal" title="View 3">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ivY-1b-Euw" kind="show" id="NhJ-Ft-rOc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gwf-FM-tBY" secondAttribute="bottom" constant="100" id="0qg-Cf-q3Y"/>
+                            <constraint firstItem="OGe-lp-sZ9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AA8-v2-MXs"/>
+                            <constraint firstItem="Gwf-FM-tBY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W6n-ce-gne"/>
+                            <constraint firstItem="lyj-im-2uZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="YTf-0P-pE5"/>
+                            <constraint firstItem="lyj-im-2uZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZXG-MN-K2g"/>
+                            <constraint firstItem="OGe-lp-sZ9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="s7g-oQ-MWi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="76.339285714285708"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ByG-Sv-hWh">
+            <objects>
+                <viewController id="a9l-f9-0kc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ey5-bU-l5v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1V-LD-dJq">
+                                <rect key="frame" x="120.5" y="396" width="173" height="50"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="50"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpz-qk-ML2">
+                                <rect key="frame" x="347" y="30" width="37" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="37" id="58B-Gi-X0l"/>
+                                    <constraint firstAttribute="height" constant="27" id="Tel-lU-LI1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bNy-Yu-ZaI" kind="unwind" unwindAction="unwindSegueToMainScreenWithSegue:" id="dP9-ai-onu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0h3-31-Mkk"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="e1V-LD-dJq" firstAttribute="centerY" secondItem="ey5-bU-l5v" secondAttribute="centerY" id="1ua-SC-kRL"/>
+                            <constraint firstItem="e1V-LD-dJq" firstAttribute="centerX" secondItem="ey5-bU-l5v" secondAttribute="centerX" id="K1l-DI-r4E"/>
+                            <constraint firstItem="Xpz-qk-ML2" firstAttribute="top" secondItem="0h3-31-Mkk" secondAttribute="top" constant="30" id="Zwg-JP-0xe"/>
+                            <constraint firstItem="0h3-31-Mkk" firstAttribute="trailing" secondItem="Xpz-qk-ML2" secondAttribute="trailing" constant="30" id="hve-TU-YX6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="u9g-DL-c5j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zVP-AL-wEe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="bNy-Yu-ZaI" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="76"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wZh-MH-wcF">
+            <objects>
+                <viewController id="ivY-1b-Euw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PYy-Xd-LZJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2j-Wb-3kS">
+                                <rect key="frame" x="347" y="30" width="37" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="9LX-4v-TM4"/>
+                                    <constraint firstAttribute="width" constant="37" id="q0W-Fb-BXe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="miC-DN-85a" kind="unwind" unwindAction="unwindSegueToMainScreenWithSegue:" id="rbj-T1-YSB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1B-Sb-kg1">
+                                <rect key="frame" x="120.5" y="396" width="173" height="50"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="50"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PMy-lg-QoH"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="c2j-Wb-3kS" firstAttribute="top" secondItem="PMy-lg-QoH" secondAttribute="top" constant="30" id="AsW-lE-24t"/>
+                            <constraint firstItem="k1B-Sb-kg1" firstAttribute="centerY" secondItem="PYy-Xd-LZJ" secondAttribute="centerY" id="GVH-zV-WYL"/>
+                            <constraint firstItem="k1B-Sb-kg1" firstAttribute="centerX" secondItem="PYy-Xd-LZJ" secondAttribute="centerX" id="Lda-vK-7ag"/>
+                            <constraint firstItem="PMy-lg-QoH" firstAttribute="trailing" secondItem="c2j-Wb-3kS" secondAttribute="trailing" constant="30" id="y8w-Rz-Sfh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lYg-yS-I8G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="elV-jv-lJw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="miC-DN-85a" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="769"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pm7-ul-I3z">
+            <objects>
+                <viewController id="gWE-wo-jWy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HYO-9Z-Ndg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KE3-MY-Y28">
+                                <rect key="frame" x="323" y="30" width="61" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="OMV-35-gzT"/>
+                                    <constraint firstAttribute="width" constant="61" id="miS-gR-iwK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Eig-ZQ-1Ho" kind="unwind" unwindAction="unwindSegueToMainScreenWithSegue:" id="a03-cf-5kC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aG1-ch-37j">
+                                <rect key="frame" x="137.5" y="401" width="139" height="40"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="40"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bRJ-I8-Woj"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="KE3-MY-Y28" firstAttribute="top" secondItem="bRJ-I8-Woj" secondAttribute="top" constant="30" id="8MZ-s6-j0t"/>
+                            <constraint firstItem="aG1-ch-37j" firstAttribute="centerY" secondItem="HYO-9Z-Ndg" secondAttribute="centerY" id="935-Iw-O2L"/>
+                            <constraint firstItem="aG1-ch-37j" firstAttribute="centerX" secondItem="HYO-9Z-Ndg" secondAttribute="centerX" id="c2d-Lu-fMI"/>
+                            <constraint firstItem="bRJ-I8-Woj" firstAttribute="trailing" secondItem="KE3-MY-Y28" secondAttribute="trailing" constant="30" id="fNY-Uk-KO9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="BYa-43-VhA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfR-fX-SB0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Eig-ZQ-1Ho" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1120" y="-597"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
